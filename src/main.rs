@@ -74,7 +74,7 @@ enum InputType {
 
 impl InputType {
     fn demangle(&self, output: OutputType, include_hash: bool) -> io::Result<()> {
-        // NOTE: This has to be seperated into two functions for generics
+        // NOTE: This has to be separated into two functions for generics
         match *self {
             InputType::Stdin => {
                 let stdin = stdin();
