@@ -9,7 +9,7 @@ readme = "README.md"
 license = "Apache-2.0"
 
 [dependencies]
-rustc-demangle = "^0.1.4"
+rustc-demangle = "^0.1.20"
 lazy_static = "^1"
 regex = "^1"
 
